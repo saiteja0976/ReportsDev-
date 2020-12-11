@@ -1,0 +1,45 @@
+Leadsquared - ReportsDev Test
+
+P.Sai Teja Reddy
+17BCE0976
+parigisaitejareddy@gmail.com
+
+Section 1:
+
+1.SELECT DEPARTMENT,COUNT(*) FROM Employee GROUP BY DEPARTMENT
+
+2.SELECT FIRST_NAME,LAST_NAME , MANAGER FROM Employee ASC GROUP BY DEPARTMENT
+
+3.SELECT FIRST_NAME,LAST_NAME ,
+SUM(INCENTIVE_AMOUNT) FROM Employee RIGHT JOIN Incentives ON Employee.EMPLOYEE_ID = Incentives.EMPLOYEE_REF_ID GROUP BY INCENTIVE_DATE;
+
+4.SELECT *INCENTIVE_DATE, max(INCENTIVE_AMOUNT) from Incentives JOIN Employee ON  Employee.EMPLOYEE_ID = Incentives.EMPLOYEE_REF_ID GROUP FIRST_NAME;
+
+Section 2:
+
+5Q)
+
+1.Start 7 minutes sand timer and 4 minutes sand timer simultaneously (0,0) indicates respective amount of timer in 7 and 4 mins timer respectively
+2.After 4 mins , 3mins of sand will be left in 7 minutes timer ->(3,0) , Time Elapsed=4
+3.Now we will turn the 7minutes timer upside down and start 4minutes timer.
+4.After 3 minutes there will be 1min timer will be left in 4 minutes timer->(0,1) ,Time Elapsed=7min
+5.Now we will turn 7 minute timer upside down for 1 sec ->(1,0),Time Elapsed=8min
+6.Again we will turn upside the 7minutes timer for 1 sec ->(0,1) , Time Elapsed=9 min
+
+
+6Q)
+
+<B,G> / <G,G> / <G,B> , therefore the probability is 1/3
+
+7Q)
+Yes, the argument given about is true.We can increase the sales of any business by advertising the business in a platform such that the effect of impact on the business on targeted people must be high.
+
+For example if we consider any boost it targets the childs so they advertise it mainly in TV because childs spend a lot of time on TV and they advertise in non school hours only because during the school hours the targeted people will be less.
+
+But sometimes the same advertising may bring the business down.Because sometimes one feel like if one is advertising it for too much they think that  they might be running low on business and trying to increase their sales.Because if ones company is getting goof profits their is no need of advertising in the first point.
+
+
+
+
+
+
